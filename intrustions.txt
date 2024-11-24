@@ -12,15 +12,15 @@ the design of a basic web page, focusing on background colors, text, and interac
 
 Task 1: Apply RGBA Background Colors
 Create a CSS class named .background-fade and apply it to a div element. Use RGBA to set a semi-transparent background color.
-status: incomplete
+status: COMPLETE
 
 Task 2: Enhance Text Visibility with RGBA
 Enhance the readability of a header element (h1) by adding a text shadow using RGBA for color and opacity, creating a subtle shadow effect.
-status: incomplete
+status: COMPLETE
 
 Task 3: Interactive Buttons with RGBA Hover Effects
 Design a button with a solid RGBA background color. Implement a hover effect that changes the button's background color to a different RGBA value.
-status: incomplete
+status: COMPLETE
 
 2. Creating Interactive Web Elements with CSS Animations and Transitions
 Objective:
@@ -35,12 +35,12 @@ engagement and the overall aesthetic of the webpage.
 
 Task 1: Smooth Hover Transition for Links
 Create a CSS transition effect for all hyperlink (<a>) elements so that their color smoothly changes when hovered over.
-status: incomplete
+status: COMPLETE
 
 Task 2: Animated Button on Click
 Implement a keyframe animation for a button that slightly increases in size when clicked, giving a visual cue of interaction.
-status: incomplete
+status: COMPLETE
 
 Task 3: Continuous Rotation Animation for an Icon
 Apply a continuous rotation animation to an icon or image, creating a visually captivating element on the page.
-status: incomplete
+status: COMPLETE

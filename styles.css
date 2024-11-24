@@ -1,0 +1,78 @@
+/* This file contains all the CSS code to style the HTML web page designed in the assignment.html file */
+
+/* Part 1 Task 1: Apply RGBA Background Colors */
+.background-fade {
+    background-color: rgba(135, 206, 235, 0.5);
+}
+
+/* Part 1 Task 2: Enhance Text Visibility with RGBA */
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+} 
+
+/* Part 1 Task 3: Interactive Buttons with RGBA Hover Effects */
+button {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(75, 123, 1);
+}
+button:hover {
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+
+/* Part 2 Task 1: Smooth Hover Transition for Links */
+a {
+    color: white;
+}
+.center-text {
+    text-align: center;
+}
+a.center-text {
+    display: block;
+}
+a:hover {
+    color: black;
+}
+
+/* Part 2 Task 2: Animated Button on Click */
+.animatedbutton {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(75, 123, 1);
+}
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.animatedbutton.clicked {
+    animation: scaleUp 0.5s ease-in-out;
+}
+
+/* Part 2 Task 3: Continuous Rotation Animation for an Icon */
+p {
+    font-size: 50px;
+    text-align: center;
+}
+.rotateicon {
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
