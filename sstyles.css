@@ -1,0 +1,6 @@
+/* This file contains all the CSS code to style the HTML web page designed in the assignment.html file */
+
+/* Part 1 Task 1: Apply RGBA Background Colors */
+.background-fade {
+    background-color: rgba(145, 197, 211, 0.6);
+}
